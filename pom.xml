@@ -5,5 +5,22 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>sidmeyer.javalearn</groupId>
   <artifactId>sayhello</artifactId>
+  <packaging>jar</packaging>
   <version>1.0</version>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>sidmeyer.sayhello.Main</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
