@@ -3,7 +3,6 @@ package sidmeyer.sayhello;
 import org.junit.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-
 import static org.junit.Assert.*;
 
 /**
@@ -13,7 +12,7 @@ public class SayHelloTest {
 
 	@Test
 	public void testSayHello() throws Exception {
-		String expectedOutput = "Добрый вечер!\r\n";
+		String expectedOutput = "Доброй ночи!\n";
 
 		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(outContent));

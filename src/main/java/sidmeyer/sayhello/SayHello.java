@@ -21,24 +21,24 @@ public class SayHello {
 				sayGoodEvening();
 				break;
 			default:
-				System.out.println("Здравствуйте!");
+				System.out.print("Здравствуйте!\n");
 		}
 	}
 
 	private static void sayGoodNight() {
-		System.out.println("Доброй ночи!");
+		System.out.print("Доброй ночи!\n");
 	}
 
 	private static void sayGoodMorning() {
-		System.out.println("Доброе утро!");
+		System.out.print("Доброе утро!\n");
 	}
 
 	private static void sayGoodAfternoon() {
-		System.out.println("Добрый день!");
+		System.out.print("Добрый день!\n");
 	}
 
 	private static void sayGoodEvening() {
-		System.out.println("Добрый вечер!");
+		System.out.print("Добрый вечер!\n");
 	}
 
 	private static DayTime getDayTime() {
