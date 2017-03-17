@@ -1,7 +1,7 @@
 package sidmeyer.sayhello;
 
 /**
- * Created by Stas on 08.03.2017.
+ * @author Stas.
  */
 public class Main {
     public static void main(String[] args) {

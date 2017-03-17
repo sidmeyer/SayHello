@@ -3,9 +3,12 @@ package sidmeyer.sayhello;
 import java.util.Calendar;
 
 /**
- * Created by Stas on 08.03.2017.
+ * @author Stas.
  */
 public class SayHello {
+	/**
+	 * Prints hello message depends on day time.
+	 */
 	public static void sayHello() {
 		switch (getDayTime()) {
 			case NIGHT:
