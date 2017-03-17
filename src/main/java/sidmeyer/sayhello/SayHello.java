@@ -1,8 +1,6 @@
 package sidmeyer.sayhello;
 
 import java.util.Calendar;
-import java.util.Date;
-import java.util.TimeZone;
 
 /**
  * Created by Stas on 08.03.2017.
